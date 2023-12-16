@@ -13,5 +13,14 @@ do{
 
 }while($i <=10);
 
+echo "<h1>For each fruit display</h1>";
+$fruits = array("Lychee","Honeydew","Watermelon");
+
+foreach($fruits as $value){
+
+    echo "$value";
+    echo"<br>";
+}
+
 
 ?>
